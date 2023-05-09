@@ -1,0 +1,15 @@
+@use "../../styles/partials/typography" as *;
+// @use "../../styles/partials/mixins" as *;
+// @use "../../styles/partials/variables" as *;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Indie Flower";
+    margin: 0;
+    padding: 0;
+}
