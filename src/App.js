@@ -1,6 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
 import Nav from "../src/components/Nav/Nav";
+import HomePage from "./pages/HomePage/HomePage";
+import MealBuild from "./pages/MealBuild/MealBuild";
+import PlannedMeals from "./pages/PlannedMeals/PlannedMeals";
+import Groceries from "./pages/Groceries/Groceries";
+import AboutUs from "./pages/AboutUs/AboutUs";
 import './App.scss';
 import "../src/styles/partials/_global.scss";
 
@@ -8,14 +12,14 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <Nav />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/build" />
-          <Route path="/plannedmeals" />
-          <Route path="/groceries" />
-          <Route path="/aboutus" />
+          <Route path="/build" element={<MealBuild />} />
+          <Route path="/plannedmeals" element={<PlannedMeals />} />
+          <Route path="/groceries" element={<Groceries />} />
+          <Route path="/aboutus" element={<AboutUs />} />
         </Routes>
+        <Nav />
       </BrowserRouter>
     </div>
   );

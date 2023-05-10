@@ -2,15 +2,15 @@ import './HomePage.scss';
 import BG from "../../assets/backgrounds/desktop/desktop-bg-concrete.jpg";
 import Splash from "../../assets/images/logo-main.png";
 
-function homepage() {
+function HomePage() {
   return (
     <div>
-      <section className="homepage">
-        <img src={BG} className="homepage__background" />
-        <img src={Splash} className="homepage__splash" />
+      <section className="home-page">
+        <img src={BG} alt="concrete background" className="home-page__background" />
+        <img src={Splash} alt="app name and grocery hero" className="home-page__splash" />
       </section>
     </div>
   );
 }
 
-export default homepage;
+export default HomePage;

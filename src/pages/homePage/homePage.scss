@@ -3,7 +3,7 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/global" as *;
 
-.homepage {
+.home-page {
 
     &__background {
         position: absolute;
@@ -16,18 +16,19 @@
     }
 
     &__splash {
-        padding: 1rem 1rem 0;
+        padding: 2rem 4rem 0;
         margin: 0 auto;
         object-fit: contain;
-        width: 100%;
+        width: 90%;
         display: flex;
 
         @include tablet {
-            padding: 2rem 2rem 0;
+            width: 50%;
         }
 
         @include desktop {
             max-width: 1280px;
+            max-height: 29rem;
         }
     }
 }
