@@ -16,11 +16,12 @@
     }
 
     &__splash {
-        padding: 2rem 4rem 0;
+        padding-top: 2rem;
         margin: 0 auto;
         object-fit: contain;
         width: 90%;
         display: flex;
+        max-height: 15rem;
 
         @include tablet {
             width: 50%;
