@@ -2,8 +2,45 @@ import './MealBuild.scss';
 import mBG from "../../assets/backgrounds/mobile/mobile-bg-build.jpg";
 import BG from "../../assets/backgrounds/desktop/desktop-bg-build.jpg";
 import Plate from "../../assets/images/meal-builder.png";
+import axios from "axios";
+
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 function MealBuild() {
+
+    const handleUpload = (e) => {
+        e.preventDefault();
+
+        // get the DOM object of form
+        const form = e.target;
+
+        // get the field values from form
+        const title = form.title.value;
+        const description = form.description.value;
+
+        // adds logic/validation to confirm all fields filled
+        if (!title) {
+            alert("Enter title in order to continue")
+            return;
+        }
+
+        if (!description) {
+            alert("Enter description in order to continue")
+            return;
+        }
+
+        // making an axios request to add upload to backend database
+        axios
+            .post(`${BASE_URL}/videos`, { title, description, image: "http://localhost:8080/images/image9.jpeg" })
+            .then(() => {
+                alert("Upload successful");
+
+            })
+            .catch(({ response }) => {
+                alert(`${response.data}`);
+            });
+    };
+
     return (
         <div>
             <section className="meal-build">
