@@ -8,11 +8,11 @@ function AboutUs() {
         <div>
             <section className="about-us">
                 <img src={BG} alt="concrete background" className="about-us__background" />
-                <div className="about-us__background-desktop-container">
+                <div className="about-us__container">
                     <img src={Logo} alt="logo" className="about-us__background-logo" />
                     <img src={Plate} alt="plate" className="about-us__background-plate" />
+                    <a className="about-us__contact" href="mailto: rpaavola@mac.com"><div className="about-us__contact">rpaavola@mac.com</div></a>
                 </div>
-                <a className="about-us__contact" href="mailto: rpaavola@mac.com"><div className="about-us__contact">rpaavola@mac.com</div></a>
             </section>
         </div>
     );

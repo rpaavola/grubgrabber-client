@@ -14,19 +14,6 @@
         object-fit: cover;
         z-index: -1;
 
-        &-desktop-container {
-            display: flex;
-
-            @include desktop {
-                width: 1280px;
-                height: 100vh;
-                margin: 0 auto;
-                background-color: rgba(255, 255, 255, .5);
-                position: relative;
-                z-index: 1;
-            }
-        }
-
         &-logo {
             padding: 1rem 0 0 1rem;
             width: 12rem;
@@ -54,6 +41,19 @@
         }
     }
 
+    &__container {
+        display: flex;
+
+        @include desktop {
+            width: 1280px;
+            height: 100vh;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, .5);
+            position: relative;
+            z-index: 1;
+        }
+    }
+
     &__contact {
         font-size: .75rem;
         z-index: 1;
@@ -65,12 +65,12 @@
         @include tablet {
             font-size: 1rem;
             bottom: 26%;
-            right: 5%;
+            right: 7%;
         }
 
         @include desktop {
             bottom: 27%;
-            right: 29%;
+            right: 5%;
         }
     }
 }
