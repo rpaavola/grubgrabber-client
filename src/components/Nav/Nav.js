@@ -2,7 +2,7 @@ import './Nav.scss';
 import mBar from "../../assets/images/mobile-navbar3.png";
 import tBar from "../../assets/images/tablet-navbar3.png";
 import dBar from "../../assets/images/5k-navbar3.png";
-import Arrow from "../../assets/icons/arrows.png";
+import Arrow from "../../assets/icons/arrow.png";
 import { NavLink } from "react-router-dom";
 
 

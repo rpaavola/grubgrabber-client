@@ -1,7 +1,7 @@
 import './AboutUs.scss';
 import BG from "../../assets/backgrounds/desktop/desktop-bg-concrete.jpg";
 import Logo from "../../assets/images/logo-textured.png";
-import Plate from "../../assets/images/desktop-plate.png";
+import Plate from "../../assets/images/desktop-plate1.png";
 
 function AboutUs() {
     return (
@@ -12,6 +12,7 @@ function AboutUs() {
                     <img src={Logo} alt="logo" className="about-us__background-logo" />
                     <img src={Plate} alt="plate" className="about-us__background-plate" />
                 </div>
+                <a className="about-us__contact" href="mailto: rpaavola@mac.com"><div className="about-us__contact">rpaavola@mac.com</div></a>
             </section>
         </div>
     );

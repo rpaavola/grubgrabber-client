@@ -31,6 +31,7 @@
             padding: 1rem 0 0 1rem;
             width: 12rem;
             position: absolute;
+            filter: grayscale(100%);
 
             @include tablet {
                 padding: 2rem 0 0 2rem;
@@ -50,6 +51,26 @@
             padding-bottom: 3rem;
             margin-left: auto;
             height: 100vh;
+        }
+    }
+
+    &__contact {
+        font-size: .75rem;
+        z-index: 1;
+        position: absolute;
+        bottom: 28%;
+        right: 5%;
+        color: black;
+
+        @include tablet {
+            font-size: 1rem;
+            bottom: 26%;
+            right: 5%;
+        }
+
+        @include desktop {
+            bottom: 27%;
+            right: 29%;
         }
     }
 }

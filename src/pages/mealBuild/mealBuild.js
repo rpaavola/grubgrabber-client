@@ -1,11 +1,15 @@
 import './MealBuild.scss';
 import mBG from "../../assets/backgrounds/mobile/mobile-bg-build.jpg";
 import BG from "../../assets/backgrounds/desktop/desktop-bg-build.jpg";
+import Plate from "../../assets/images/meal-builder.png";
 
 function MealBuild() {
     return (
         <div>
             <section className="meal-build">
+                <div className="meal-build__plate-container">
+                    <img src={Plate} alt="meal builder plate" className="meal-build__plate" />
+                </div>
                 <img src={mBG} alt="cutting board background" className="meal-build__background-mobile" />
                 <img src={BG} alt="cutting board background" className="meal-build__background" />
                 <div className="meal-build__form-container">
@@ -20,6 +24,7 @@ function MealBuild() {
                                 <option value="lunch">Lunch</option>
                                 <option value="dinner">Dinner</option>
                                 <option value="snack">Snack</option>
+                                <option value="snack">Dessert</option>
                             </select>
                         </label>
                         <div className="meal-build__label-qty">Qty:</div><div className="meal-build__label-ing">Ingredient:</div>
