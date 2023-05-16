@@ -6,77 +6,19 @@
 .planned-meals {
 
     &__plate {
-        width: 6rem;
-
-        @include tablet {
-            width: 10rem;
-        }
-
-        @include desktop {
-            margin-top: 1.5rem;
-            width: 13rem;
-        }
+        @include platePositioning;
 
         &-container {
-            @include desktop {
-                max-width: 1280px;
-                margin: 0 auto;
-            }
+            @include desktopWidth;
         }
     }
 
     &__background {
-        display: none;
-
-        @include tablet {
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-        }
-
-        &-mobile {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-
-            @include tablet {
-                display: none;
-            }
-        }
+        @include backgroundPositioning;
     }
 
     &__container {
-        padding: .5rem;
-        margin: 0 auto;
-        width: 60%;
-        background-color: rgba(255, 255, 255, .5);
-        box-shadow: 0px 3px 20px 20px #00000077;
-        position: absolute;
-        top: 23%;
-        left: 10%;
-        right: 10%;
-        justify-content: center;
-
-        @include tablet {
-            padding: 1rem;
-            width: 60%;
-            top: 25%;
-        }
-
-        @include desktop {
-            max-width: 1280px;
-            width: 35%;
-            top: 30%;
-        }
+        @include contentContainerPositioning;
     }
 
     &__meal-container {
@@ -88,19 +30,11 @@
     }
 
     &__ing-list {
-        padding: 0;
         margin: 0;
+        padding: 0;
     }
 
     &__list-item {
         list-style: none;
-    }
-
-    &__button {
-        border: none;
-        background-color: black;
-        color: white;
-        font-family: 'Indie FLower';
-        width: 10rem;
     }
 }

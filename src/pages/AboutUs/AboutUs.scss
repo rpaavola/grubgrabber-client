@@ -6,19 +6,19 @@
 .about-us {
 
     &__background {
+        object-fit: cover;
         position: absolute;
         top: 0;
         left: 0;
+        z-index: -1;
         width: 100%;
         height: 100%;
-        object-fit: cover;
-        z-index: -1;
 
         &-logo {
+            filter: grayscale(100%);
+            position: absolute;
             padding: 1rem 0 0 1rem;
             width: 12rem;
-            position: absolute;
-            filter: grayscale(100%);
 
             @include tablet {
                 padding: 2rem 0 0 2rem;
@@ -26,17 +26,17 @@
             }
 
             @include desktop {
-                width: 50rem;
+                @include desktopWidth;
                 padding-left: 5rem;
+                width: 50rem;
+
                 display: flex;
-                max-width: 1280px;
-                margin: 0 auto;
             }
         }
 
         &-plate {
-            padding-bottom: 3rem;
             margin-left: auto;
+            padding-bottom: 3rem;
             height: 100vh;
         }
     }
@@ -45,32 +45,32 @@
         display: flex;
 
         @include desktop {
-            width: 1280px;
-            height: 100vh;
-            margin: 0 auto;
             background-color: rgba(255, 255, 255, .5);
             position: relative;
             z-index: 1;
+            margin: 0 auto;
+            width: 1280px;
+            height: 100vh;
         }
     }
 
     &__contact {
         font-size: .75rem;
-        z-index: 1;
-        position: absolute;
-        bottom: 28%;
-        right: 5%;
         color: black;
+        position: absolute;
+        right: 5%;
+        bottom: 28%;
+        z-index: 1;
 
         @include tablet {
             font-size: 1rem;
-            bottom: 26%;
             right: 7%;
+            bottom: 26%;
         }
 
         @include desktop {
-            bottom: 27%;
             right: 5%;
+            bottom: 27%;
         }
     }
 }

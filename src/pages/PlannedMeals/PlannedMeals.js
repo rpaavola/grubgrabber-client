@@ -5,6 +5,7 @@ import Plate from "../../assets/images/planned-meals.png";
 import MealCard from '../../components/MealCard/MealCard';
 import { getMeals, deleteMeal } from "../../JS/utils";
 import { useEffect, useState } from "react";
+
 function PlannedMeals({ title, type }) {
 
     const [meals, setMeals] = useState();

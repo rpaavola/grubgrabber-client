@@ -6,9 +6,11 @@ import { deleteAllMeals } from '../../JS/utils';
 import { updateIngredient } from '../../JS/utils';
 import { getIngredients } from "../../JS/utils";
 import { useEffect, useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 function Groceries({ quantity, ingredient }) {
 
+    const navigate = useNavigate();
     const [ingredients, setIngredients] = useState();
 
     useEffect(() => {
@@ -31,6 +33,7 @@ function Groceries({ quantity, ingredient }) {
     const handleClearList = () => {
         deleteAllMeals();
         setIngredients([]);
+        navigate("/aboutus")
     };
 
     return (
