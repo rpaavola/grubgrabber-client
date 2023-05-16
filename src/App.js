@@ -5,7 +5,6 @@ import MealBuild from "./pages/MealBuild/MealBuild";
 import PlannedMeals from "./pages/PlannedMeals/PlannedMeals";
 import Groceries from "./pages/Groceries/Groceries";
 import AboutUs from "./pages/AboutUs/AboutUs";
-import './App.scss';
 import "../src/styles/partials/_global.scss";
 
 function App() {
