@@ -12,6 +12,15 @@
 
 GrabGrabber is a full-stack app which focuses on visual design and database usage.  Its built purpose is to have a one stop shop for building dailty/weekly meals and consolidating the needed groceries to one list. As groceries are Grabbed from the store, they can me checked off the list and finally cleared/removed from the database.
 
+## App ScreenShots
+
+![Screenshot-home](https://github.com/rpaavola/grubgrabber-client/assets/121308308/11510645-8364-4cef-96a4-8bc60eb0f5c6)
+![Screenshot-build](https://github.com/rpaavola/grubgrabber-client/assets/121308308/0dce8880-155b-421a-894f-50b9900f2833)
+![Screenshot-planned](https://github.com/rpaavola/grubgrabber-client/assets/121308308/c23a551b-0770-4b2b-a46c-50af2a9c7b0b)
+![Screenshot-groceries](https://github.com/rpaavola/grubgrabber-client/assets/121308308/0736c597-50e8-4fca-a565-56260f81e1dd)
+![Screenshot-about](https://github.com/rpaavola/grubgrabber-client/assets/121308308/b5e2834c-99de-40fa-bc07-0806c09b9804)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
