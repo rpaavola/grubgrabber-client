@@ -1,18 +1,8 @@
-# App Dependencies
+# App Features
 
-    "axios": "^1.4.0",
-    "dotenv": "^16.0.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.1",
-    "react-scripts": "5.0.1",
-    "sass": "^1.62.1",
+GrabGrabber is a full-stack app which focuses on visual design and database usage.  Its built purpose is to have a one stop shop for building daily/weekly meals and consolidating the needed groceries to one list. As groceries are Grabbed from the store, they can me checked off the list and finally cleared/removed from the database.
 
-## App Features
-
-GrabGrabber is a full-stack app which focuses on visual design and database usage.  Its built purpose is to have a one stop shop for building dailty/weekly meals and consolidating the needed groceries to one list. As groceries are Grabbed from the store, they can me checked off the list and finally cleared/removed from the database.
-
-## App ScreenShots
+# App ScreenShots
 
 ![Screenshot-home](https://github.com/rpaavola/grubgrabber-client/assets/121308308/11510645-8364-4cef-96a4-8bc60eb0f5c6)
 ![Screenshot-build](https://github.com/rpaavola/grubgrabber-client/assets/121308308/0dce8880-155b-421a-894f-50b9900f2833)
@@ -20,6 +10,19 @@ GrabGrabber is a full-stack app which focuses on visual design and database usag
 ![Screenshot-groceries](https://github.com/rpaavola/grubgrabber-client/assets/121308308/0736c597-50e8-4fca-a565-56260f81e1dd)
 ![Screenshot-about](https://github.com/rpaavola/grubgrabber-client/assets/121308308/b5e2834c-99de-40fa-bc07-0806c09b9804)
 
+# App Lessons Learned & Next Steps
+
+From developing this app have learned how much work is invovled in making a full-stack app.  On top of software engineering, the site also had to be UX designed.  Working as an individual can have it's challenges.  Do enjoy solo work but more so working with a Team.  The next stage of this add would be to add a User Authentication feature. All in all.. am very happy how the app turned out and the functionality of it.
+
+## App Dependencies
+
+"axios": "^1.4.0",
+"dotenv": "^16.0.3",
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-router-dom": "^6.11.1",
+"react-scripts": "5.0.1",
+"sass": "^1.62.1",
 
 ## Available Scripts
 
