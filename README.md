@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# App Dependencies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "sass": "^1.62.1",
+
+## App Features
+
+GrabGrabber is a full-stack app which focuses on visual design and database usage.  Its built purpose is to have a one stop shop for building dailty/weekly meals and consolidating the needed groceries to one list. As groceries are Grabbed from the store, they can me checked off the list and finally cleared/removed from the database.
 
 ## Available Scripts
 
