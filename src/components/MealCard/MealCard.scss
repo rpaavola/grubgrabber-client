@@ -1,0 +1,45 @@
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/global" as *;
+
+.meal-card {
+
+    &__meal-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        @include tablet {
+            font-size: 2rem;
+        }
+    }
+
+    &__type-button {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__type {
+        font-size: .75rem;
+
+        @include tablet {
+            font-size: 1.75rem;
+        }
+    }
+
+    &__button {
+        background-image: url("../../assets/icons/clear.png");
+        background-size: contain;
+        background-color: transparent;
+        border: none;
+        width: 1rem;
+        height: 1rem;
+
+        @include tablet {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}
