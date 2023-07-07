@@ -4,11 +4,11 @@ GrabGrabber is a full-stack app which focuses on visual design and database usag
 
 # App ScreenShots
 
-![home.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/home.png)
-![build.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/121308308/0dce8880-155b-421a-894f-50b9900f2833)
-![planned.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/121308308/c23a551b-0770-4b2b-a46c-50af2a9c7b0b)
-![groceries.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/121308308/0736c597-50e8-4fca-a565-56260f81e1dd)
-![about.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/121308308/b5e2834c-99de-40fa-bc07-0806c09b9804)
+![home](https://github.com/rpaavola/grubgrabber-client/assets/121308308/6cbf6db4-6a99-4713-b8f7-d69625f0e564)
+![build](https://github.com/rpaavola/grubgrabber-client/assets/121308308/c6f38563-f517-498f-866b-4768721bd0a5)
+![planned](https://github.com/rpaavola/grubgrabber-client/assets/121308308/d7cfa670-5d2e-44e8-b406-c238557b1fbe)
+![groceries](https://github.com/rpaavola/grubgrabber-client/assets/121308308/2151ce7e-c17b-4146-b418-40f48c511da1)
+![about](https://github.com/rpaavola/grubgrabber-client/assets/121308308/5fe57141-f13c-439f-9209-33ae9a38c466)
 
 # App Lessons Learned & Next Steps
 
