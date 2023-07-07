@@ -4,7 +4,7 @@ GrabGrabber is a full-stack app which focuses on visual design and database usag
 
 # App ScreenShots
 
-![home.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/121308308/11510645-8364-4cef-96a4-8bc60eb0f5c6)
+![home.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/home.png)
 ![build.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/121308308/0dce8880-155b-421a-894f-50b9900f2833)
 ![planned.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/121308308/c23a551b-0770-4b2b-a46c-50af2a9c7b0b)
 ![groceries.png](https://github.com/rpaavola/grubgrabber-client/assets/screenshots/121308308/0736c597-50e8-4fca-a565-56260f81e1dd)
